@@ -1,0 +1,66 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.bigbox1{
+    background-color: grey;
+    float: left;
+    color: white;
+    position: relative;
+    height: 300px;
+    padding: 20px;
+    width: 100%;
+}
+
+.box1{
+/* header */
+    background-color: red;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    padding: 0px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.box2{
+/* links */
+background-color: pink;
+position: absolute;
+right: 10%;
+top: 2%;
+padding: 0px;
+font-size: medium;
+}
+
+.box3{
+/* text */
+background-color: purple;
+position: absolute;
+left: 10%;
+top: 25%
+
+}
+
+.box4{
+/* image */
+background-color: goldenrod;
+position: absolute;
+top: 25%;
+right: 10%;
+
+}
+
+.box5{
+/* button */
+background-color: powderblue;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
