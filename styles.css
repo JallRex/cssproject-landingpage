@@ -1,0 +1,323 @@
+/* Styles document for css project */
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+/* header + img */
+.flexbox-container1{
+    display: flex;
+    background-color: #1F2937;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+/* random info and pics */
+.flexbox-container2{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+}
+/* quote */
+.flexbox-container3{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+/* Call to action */
+.flexbox-container4{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+}
+/* footer */
+.flexbox-container5{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+/* Group changer for all items */
+/* should prob be removed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.flexbox-item{
+    width: 400px;
+    margin: 10px;
+    /* border: 3px solid #333;
+    opacity: 20%; */
+
+}
+
+/* box 1 and 2 */
+.flexbox-block1{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: center;
+}
+
+/* box 3 and 4 */
+.flexbox-block2{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: center;
+
+}
+
+/* random info headliner */
+/* box 5 */
+.flexbox-block3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 100%;
+}
+
+/* random information pictures and text */
+/* box 6, 7, 8, 9 */
+.flexbox-block4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    min-width: 100%;
+}
+
+/* quote */
+/* box 10 */
+.flexbox-block5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 100%;
+}
+
+/* bottom white (Signature) */
+/* box 11 */
+.flexbox-block6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* bottom gray line */
+/* box 12 */
+.flexbox-block7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+/* header logo */
+.flexbox-item-1{
+    height: 50px;
+    padding-top:0px;
+    margin-top: 0px;
+
+
+}
+#header-item-1{
+    font-size: 24px;
+    color: #f9FAf8;
+    padding-top:5px;
+    margin-top: 5px;
+
+
+}
+
+/* links */
+.flexbox-item-2{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    padding-top:0px;
+    margin-top: 0px;
+}
+#a-tag-item-2{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:5px;
+    margin-top: 5px;
+}
+
+/* awesome + button */
+.flexbox-item-3{
+    min-height: 300px;
+}
+#h1-item-3{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9FAf8;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#p-item-3{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#button-item-3{
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 10%;
+    height: 20px;
+    width: 60px;
+    color: #e5e7eb;
+}
+
+
+/*image */
+.flexbox-item-4{
+    min-height: 300px;
+}
+#img-item-4{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 250px;
+}
+
+/* random info! */
+.flexbox-item-5{
+    min-height: 50px;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+#h2-item-5{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+/* txt + img */
+
+
+.flexbox-item-6-9{
+    display: flex;
+    justify-content: center;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 15%;
+    gap: 10px;
+}
+
+#img-item-69{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10%;
+}
+
+.flexbox-item-6{
+    height: 100px;
+    width: 100px;
+
+}
+.flexbox-item-61{
+    height: 100px;
+    width: 100px;
+}
+
+.flexbox-item-7{
+    height: 100px;
+    width: 100px;
+}
+.flexbox-item-71{
+    height: 100px;
+    width: 100px;
+}
+.flexbox-item-8{
+    height: 100px;
+    width: 100px;
+}
+.flexbox-item-81{
+    height: 100px;
+    width: 100px;
+}
+.flexbox-item-9{
+    height: 100px;
+    width: 100px;
+}
+.flexbox-item-91{
+    height: 100px;
+    width: 100px;
+}
+
+.flexbox-block41{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+/* txt + img ^^ */
+
+
+/* quote + link */
+.flexbox-item-10{
+    min-height: 100px;
+    min-width: fit-content;
+    margin: 50px;
+    position: relative;
+}
+#p-item-10{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#h2-item-10{
+    font-weight: bold;
+    position: absolute;
+    font-size: 36px;
+    top: 70%;
+    left: 50%;
+}
+
+/* call to action */
+.flexbox-item-11{
+    height: 100px;
+    width: 700px;
+    margin: 70px;
+    position: relative;
+
+}
+
+.h3-item-11{
+    font-weight: bold;
+}
+.p-item-11{
+    font-size: 18px;
+}
+.button-item-11{
+    float: inline-end;
+    position:absolute;
+    top: 60%;
+    left: 80%;
+}
+
+/* copyright */
+.flexbox-item-12{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-item-12{
+    font-size:18px;
+    color: #E5E7EB;
+}
